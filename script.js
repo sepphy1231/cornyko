@@ -15,11 +15,11 @@ window.onload = typeMessage;
 
 // Message Overlay Functions
 const messages = [
-    "Hi miss mylove happy motmot to us its our special day i want to make bawi2 for this time sorry eto lang muna for this time because i cant laag2 for this day and tomms because naa mi lakaw sorry bawi rako next time if when ka ma free love youu short message nlng muna this time .",
-    "always remember that very special and important to me, i really love you so much since the day that i loved you, its been 9 months and counting im realy still in to you and that will never change i will love you forever and always forever na always pa.",
-    "i am always here for you no matter what happeninings in the world..",
-    "i am sorry miss if sometimes di nako ma pa feel or di nimo ma feel how much i love idk why maybe idk how to express my real feelings for you i am sorry miss for all of my kasalanan to you i but i promise i will be better for you, I LOVEE YOUUU want to hug you rn habang.",
-    "You are my everything forever and always, I love you."
+    "Hi miss mylove happy motmot to us its our special day i want to make bawi2 this time sorry eto lang muna because i cant laag2 for this day and tomms because naa mi lakaw sorry bawi rako next time if when ka ma free love youu mycornt message nlng muna this time .",
+    "always remember miss that you are very special and important to me, i really love you so much since the day that i loved you, its been 9 months and counting im realy still in to you and that will never change i will love you forever and always forever na always pa.",
+    "i am always here for you no matter what happeninings in the world misswaswas..",
+    "i am sorry miss if sometimes di nako ma pa feel or di nimo ma feel how much i love idk why maybe idk how to express my real feelings for you i am sorry miss for all of my kasalanan to you i but i promise i will be better for you, I LOVEE YOUUU want to hug you rn i miss ysm.",
+    "You are my everything forever and always, I love you corntsm."
 ];
 
 function showMessage(index) {
