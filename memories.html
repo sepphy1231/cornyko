@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ka cornyhan</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="gallery-container">
+        <h2>Ka cornyhan</h2>
+        <div class="gallery">
+            <!-- Images (Add your images here) -->
+            <img src="sajjj/1st.jpg" alt="Memory 1" onclick="showImage(this.src)">
+            <img src="sajjj/2nd.jpeg" alt="Memory 2" onclick="showImage(this.src)">
+            <img src="sajjj/3rd.jpeg" alt="Memory 3" onclick="showImage(this.src)">
+            <img src="sajjj/4th.jpg" alt="Memory 4" onclick="showImage(this.src)">
+            <img src="sajjj/5th.jpg" alt="Memory 5" onclick="showImage(this.src)">
+            <img src="sajjj/6th.jpg" alt="Memory 6" onclick="showImage(this.src)">
+            <img src="sajjj/7th.jpeg" alt="Memory 7" onclick="showImage(this.src)">
+            <img src="sajjj/8th.jpeg" alt="Memory 8" onclick="showImage(this.src)">
+            <img src="sajjj/9th.jpeg" alt="Memory 9" onclick="showImage(this.src)">
+            <img src="sajjj/10th.jpeg" alt="Memory 10" onclick="showImage(this.src)">
+            <!-- Videos -->
+            <video controls>
+                <source src="sajjj/1vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="sajjj/2vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Image Overlay -->
+    <div class="image-overlay" id="imageOverlay">
+        <span class="close-btn" onclick="closeImage()">×</span>
+        <img id="overlayImage" src="" alt="Memory Image">
+    </div>
+</body>
+</html>

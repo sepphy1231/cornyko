@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Messages</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Typing Effect Header Above Messages Section -->
+        <header>
+            <h1 id="typingMessage"></h1>
+        </header>
+
+        <div class="message-box">
+            <h2>my motmot message for u</h2>
+            <ul>
+                <li onclick="showMessage(1)">Message for youu</li>
+                <li onclick="showMessage(2)">oo na corny na</li>
+                <li onclick="showMessage(3)">hehe</li>
+                <li onclick="showMessage(4)">i love you</li>
+                <li onclick="showMessage(5)">so much</li>
+            </ul>
+        </div>
+        
+        <div class="image-box">
+            <img src="sajjj/front.jpeg" alt="Our Picture" onclick="goToMemories()">
+        </div>
+    </div>
+
+    <!-- Message Overlay -->
+    <div class="message-overlay" id="messageOverlay">
+        <div class="message-content" id="messageContent">
+            <p id="messageText"></p>
+            <button onclick="closeMessage()">Close</button>
+        </div>
+    </div>
+</body>
+</html>
